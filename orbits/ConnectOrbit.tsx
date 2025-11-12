@@ -35,13 +35,13 @@ export const ConnectOrbit: React.FC<ConnectOrbitProps> = ({ user, userData, setU
         const newTrio: TrioMember[] = [
             {
                 id: 'trio-1',
-                username: 'gnanendra',
-                avatarUrl: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=256&h=256&fit=crop&crop=faces'
+                username: 'Gnanendra',
+                avatarUrl: 'https://drive.google.com/file/d/1Oa8WrW-RjuW1v5rooywPT0max7GzQ1eh/view?usp=sharing'
             },
             {
                 id: 'trio-2',
-                username: 'manohar',
-                avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=256&h=256&fit=crop&crop=faces'
+                username: 'Manohar',
+                avatarUrl: 'https://drive.google.com/file/d/1wg-PJNve4hfOHjrBVe3v_UFeMbcueIIF/view?usp=sharing'
             }
         ];
 
