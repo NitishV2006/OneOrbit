@@ -36,7 +36,7 @@ export const ConnectOrbit: React.FC<ConnectOrbitProps> = ({ user, userData, setU
             {
                 id: 'trio-1',
                 username: 'Gnanendra',
-                avatarUrl: 'https://drive.google.com/file/d/1Oa8WrW-RjuW1v5rooywPT0max7GzQ1eh/view?usp=sharing'
+                avatarUrl: 'https://i.ibb.co/Psf0SNFh/Whats-App-Image-2025-11-11-at-8-13-19-PM.jpg'
             },
             {
                 id: 'trio-2',
