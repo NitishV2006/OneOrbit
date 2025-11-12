@@ -9,11 +9,11 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 3000,
       host: '0.0.0.0',
-      allowedHosts: ['oneorbit-1.onrender.com'], // ✅ correct syntax
+      allowedHosts: ['oneorbit-1.onrender.com'], 
     },
     plugins: [react()],
     define: {
-      // ✅ Define process.env safely for use in React
+    
       'process.env': {
         API_KEY: JSON.stringify(env.GEMINI_API_KEY),
         GEMINI_API_KEY: JSON.stringify(env.GEMINI_API_KEY),
@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
     },
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src'), // ✅ usually better to point to src
+        '@': path.resolve(__dirname, 'src'), 
       },
     },
   };
